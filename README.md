@@ -19,6 +19,7 @@ GitHub SSH 授权连通性测试仓库。
 
 - `yt-dlp.exe`：视频下载器（Unlicense）
 - `get-ffmpeg.bat`：一键获取 ffmpeg（因体积超 GitHub 限制，未直接入库）
+- `rea/setup-rea.bat`：一键安装 REA 逆向工程 MCP 服务器
 
 详见 [tools/README.md](tools/README.md)。
 

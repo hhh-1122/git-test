@@ -56,6 +56,16 @@ get-ffmpeg.bat
 - 授权：LGPL / GPL，官方下载：https://www.gyan.dev/ffmpeg/builds/
 - yt-dlp 与 ffmpeg 放在同一目录时会自动识别，无需额外配置。
 
+## rea（逆向工程 MCP 服务器）
+
+子目录 [`rea/`](rea/README.md)。通过 MCP 接入 agent，分析二进制、Electron/JavaScript、.NET、APK、固件和网页前端。
+
+```cmd
+rea\setup-rea.bat
+```
+
+一键完成注册（MCP + 技能），随后重启 agent 并信任该服务器。详见 [rea/README.md](rea/README.md)。
+
 ## 为什么不把 ffmpeg 提交进仓库
 
 GitHub 单文件硬限制为 100MB，ffmpeg 的 Windows 完整版约 160MB，无法推送。同时二进制文件会让仓库体积膨胀，克隆缓慢。改用脚本按需下载更合适。
