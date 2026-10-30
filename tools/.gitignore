@@ -1,0 +1,6 @@
+*.zip
+_ffmpeg.zip
+_tmp/
+ffmpeg-*/
+ffmpeg.exe
+ffprobe.exe
